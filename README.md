@@ -53,7 +53,7 @@ Follow these steps to get the project running locally:
 ## Project Demonstration
 
 ### Video Walkthrough
-For a detailed demonstration of how the application works, [watch the project video](./calories_counters.mp4).
+For a detailed demonstration of how the application works, [watch the project video](https://drive.google.com/file/d/1IgUA2cQ_qWsL40wwGN_44XpoT1N3Szlt/view?usp=drive_link).
 
 ---
 
