@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Calories-Counter/static/css/main.32a8e4de.css",
+    "main.js": "/Calories-Counter/static/js/main.fdfcc7cd.js",
+    "static/js/453.657aa88d.chunk.js": "/Calories-Counter/static/js/453.657aa88d.chunk.js",
+    "index.html": "/Calories-Counter/index.html",
+    "main.32a8e4de.css.map": "/Calories-Counter/static/css/main.32a8e4de.css.map",
+    "main.fdfcc7cd.js.map": "/Calories-Counter/static/js/main.fdfcc7cd.js.map",
+    "453.657aa88d.chunk.js.map": "/Calories-Counter/static/js/453.657aa88d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32a8e4de.css",
+    "static/js/main.fdfcc7cd.js"
+  ]
+}
