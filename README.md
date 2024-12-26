@@ -86,7 +86,7 @@ calorie-counter-tool/
 ## Technologies Used
 - **Frontend**: React.js, CSS (custom styling).
 - **Backend**: JSON Server for simulating a REST API.
-- **Tools**: Node.js, npm.
+- **Tools**: npm.
 
 ---
 
