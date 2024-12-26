@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "id": 1,
+      "date": "2024-12-20",
+      "food": "Apple",
+      "calories": 5
+    },
+    {
+      "id": 2,
+      "date": "2024-12-26",
+      "food": "Burger",
+      "calories": 8
+    },
+    {
+      "food": "paneer",
+      "calories": 38,
+      "date": "2024-12-26",
+      "id": 3
+    },
+    {
+      "food": "mango ",
+      "calories": 18,
+      "date": "2024-12-26",
+      "id": 4
+    }
+  ]
+}
