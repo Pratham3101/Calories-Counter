@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# Calorie Counter Tool
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web-based application that allows users to track their daily food intake and calorie consumption. This tool is built using **React.js** for the frontend and utilizes **JSON Server** as a lightweight backend to manage data.
 
-## Available Scripts
+## Features
+- Add, edit, and delete food entries with calorie details.
+- Automatically logs the current date for each food entry.
+- Displays food logs in a clean and organized table format.
+- Responsive design for use on desktops, tablets, and mobile devices.
+- Confirmation popup for delete actions to prevent accidental deletions.
+- Interactive and user-friendly UI with consistent styling.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Installation and Setup
+Follow these steps to get the project running locally:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
+- **Node.js** installed on your machine.
+- A package manager like **npm** or **yarn**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Steps
 
-### `npm test`
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/calorie-counter-tool.git
+   cd calorie-counter-tool
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-### `npm run build`
+3. **Start the JSON Server**:
+   ```bash
+   npx json-server --watch db.json --port 5000
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Start the React Application**:
+   Open a new terminal window and run:
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   **IMPORTANT:**
+   - The project requires the JSON Server to run locally because it cannot be deployed on GitHub Pages. Make sure to start the JSON Server before running the React application.
+   - This is a critical step as the application relies on `db.json` to store and fetch data.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Demonstration
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Video Walkthrough
+For a detailed demonstration of how the application works, [watch the project video](./path-to-your-video-file.mp4).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project Structure
+```
+calorie-counter-tool/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── FoodLogForm.js
+│   │   ├── FoodLogTable.js
+│   │   └── Popup.js
+│   ├── App.js
+│   └── index.js
+├── db.json
+├── package.json
+└── README.md
+```
 
-## Learn More
+### Key Files
+- **`db.json`**: JSON Server data file to store food logs.
+- **`FoodLogForm.js`**: Handles adding and editing entries.
+- **`FoodLogTable.js`**: Displays food logs in a table format.
+- **`Popup.js`**: Custom popup for delete confirmation.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies Used
+- **Frontend**: React.js, CSS (custom styling).
+- **Backend**: JSON Server for simulating a REST API.
+- **Tools**: Node.js, npm.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
+This project is licensed under the MIT License.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Feedback
+Feel free to open issues or submit pull requests if you have suggestions for improvements!
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
