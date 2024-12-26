@@ -53,7 +53,7 @@ Follow these steps to get the project running locally:
 ## Project Demonstration
 
 ### Video Walkthrough
-For a detailed demonstration of how the application works, [watch the project video](./calories _counter s.mp4).
+For a detailed demonstration of how the application works, [watch the project video](./Calories-Counter/calories_counters.mp4).
 
 ---
 
