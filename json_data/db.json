@@ -1,28 +1,22 @@
 {
   "entries": [
     {
-      "id": 1,
-      "date": "2024-12-20",
+      "id": 1735225528984,
+      "date": "26/12/2024",
+      "food": "maggi",
+      "calories": 45
+    },
+    {
+      "id": 1735289499043,
+      "date": "2024-12-27",
       "food": "Apple",
       "calories": 5
     },
     {
-      "id": 2,
-      "date": "2024-12-26",
-      "food": "Burger",
-      "calories": 8
-    },
-    {
-      "food": "paneer",
-      "calories": 38,
-      "date": "2024-12-26",
-      "id": 3
-    },
-    {
-      "food": "mango ",
-      "calories": 18,
-      "date": "2024-12-26",
-      "id": 4
+      "id": 1735289570546,
+      "date": "2024-12-27",
+      "food": "Pizza",
+      "calories": 15
     }
   ]
 }
