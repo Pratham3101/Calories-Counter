@@ -1,3 +1,5 @@
+//Ensure that your JSON Server is running on port 3001
+
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import FoodLogForm from './FoodLogForm';
