@@ -76,7 +76,7 @@ const DailyLogs = () => {
         setEditingEntry={setEditingEntry}/>
 
       <h2 style={{ textAlign: 'center' }}>Calorie Intake Overview</h2>
-      <CaloriesGraph data={entries} />
+      <CaloriesGraph data={entries}/>
       <h2 style={{ textAlign: 'center' }}>Your Daily Logs</h2>
       <div className="log-list">
         {entries.length > 0 ? (
@@ -102,9 +102,7 @@ const DailyLogs = () => {
                     </button>
                   </td>
                   <td>
-                    <button
-                      onClick={() => handleDeletePopup(entry.id)}
-                      className="delete-button">
+                    <button onClick={() => handleDeletePopup(entry.id)} className="delete-button">
                       Delete
                     </button>
                   </td>

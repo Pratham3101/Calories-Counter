@@ -2,21 +2,27 @@
   "entries": [
     {
       "id": 1735225528984,
-      "date": "26/12/2024",
+      "date": "2025-01-18",
       "food": "maggi",
-      "calories": 45
+      "calories": 25
     },
     {
       "id": 1735289499043,
-      "date": "2024-12-27",
+      "date": "2025-01-19",
       "food": "Apple",
       "calories": 5
     },
     {
       "id": 1735289570546,
-      "date": "2024-12-27",
+      "date": "2025-01-20",
+      "food": "Orange",
+      "calories": 17
+    },
+    {
+      "id": 1735375864571,
+      "date": "2025-01-22",
       "food": "Pizza",
-      "calories": 15
+      "calories": 9
     }
   ]
 }
